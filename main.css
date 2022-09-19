@@ -299,4 +299,17 @@ template {
  */
 [hidden] {
   display: none;
+<<<<<<< Updated upstream
+=======
+}
+
+/* Google Fonts */
+/* Font Variables */
+.header__paragraph {
+  font-family: "Inconsolata", monospace;
+}
+
+.main__header {
+  font-family: "Space Mono", monospace;
+>>>>>>> Stashed changes
 }/*# sourceMappingURL=main.css.map */
