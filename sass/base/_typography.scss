@@ -9,6 +9,9 @@
         font-size: 1.5rem;
         letter-spacing: -1.5px;
     }
+    @include laptop {
+        margin-left: 3rem;
+    }
 }
 
 .main {
@@ -20,6 +23,10 @@
         color: #333;
         @include tablet {
             margin-bottom: 1rem;
+        }
+        @include laptop {
+            width: 65%;
+            font-size: 2.8rem;
         }
     }
 
@@ -33,6 +40,14 @@
         @include tablet {
             width: 60%;   
         }
+        @include laptop {
+            font-size: 1.2rem;
+            width: 50%;
+            line-height: 1.8rem;
+            margin-bottom: 2.8rem;
+            margin-top: 2rem;
+
+        }
     }
 
     &__button {
@@ -44,6 +59,9 @@
             font-weight: 600;
             @include tablet {
                 font-size: 0.6rem;
+            }
+            @include laptop {
+                font-size: 0.7rem;
             }
         }
     }
