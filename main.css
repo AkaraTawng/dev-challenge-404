@@ -309,10 +309,6 @@ template {
   font-family: "Inconsolata", monospace;
 }
 
-.main__header {
-  font-family: "Space Mono", monospace;
-}
-
-.main__paragraph {
-  font-family: "Space Mono", monospace;
+.main {
+  font-family: "Inconsolata", monospace;
 }/*# sourceMappingURL=main.css.map */

@@ -2,10 +2,17 @@
     font-family: $inconsolata;
 }
 
-.main__header {
-    font-family: $spacemono;
-}
+.main {
+    font-family: $inconsolata;
+    &__header {
+        // font-family: $spacemono;
+    }
 
-.main__paragraph {
-    font-family: $spacemono;
+    &__paragraph {
+        // font-family: $spacemono;
+    }
+
+    &__button {
+        // font-family: $spacemono;
+    }
 }
