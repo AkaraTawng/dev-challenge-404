@@ -46,7 +46,9 @@
             line-height: 1.8rem;
             margin-bottom: 2.8rem;
             margin-top: 2rem;
-
+        }
+        @include desktop-md {
+            line-height: 2.3rem;
         }
     }
 
@@ -62,6 +64,9 @@
             }
             @include laptop {
                 font-size: 0.7rem;
+            }
+            @include desktop-md {
+                font-size: 0.9rem;
             }
         }
     }
