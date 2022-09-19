@@ -319,7 +319,6 @@ template {
 }
 .main__header {
   font-size: 2.5rem;
-  font-weight: bolder;
   margin-left: 1.5rem;
   line-height: 4rem;
   color: #333;
@@ -334,8 +333,10 @@ template {
 }
 .main__button--link {
   text-decoration: none;
-  color: black;
+  color: white;
   text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .main__image {
@@ -343,4 +344,12 @@ template {
   height: 15rem;
   margin-left: 2.5rem;
   margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.main__button {
+  background-color: #333;
+  display: inline-block;
+  padding: 1.3rem 2.2rem;
+  margin-left: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
