@@ -5,6 +5,10 @@
     letter-spacing: -4px;
     text-transform: uppercase;
     margin-left: 2rem;
+    @include tablet {
+        font-size: 1.5rem;
+        letter-spacing: -1.5px;
+    }
 }
 
 .main {
@@ -14,6 +18,9 @@
         margin-left: 1.5rem;
         line-height: 4rem;
         color: #333;
+        @include tablet {
+            margin-bottom: 1rem;
+        }
     }
 
     &__paragraph {
@@ -21,8 +28,11 @@
         line-height: 1.5rem;
         font-weight: lighter;
         margin-left: 1.5rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         color: #4F4F4F;
+        @include tablet {
+            width: 60%;   
+        }
     }
 
     &__button {
@@ -32,6 +42,9 @@
             text-transform: uppercase;
             font-size: 0.9rem;
             font-weight: 600;
+            @include tablet {
+                font-size: 0.6rem;
+            }
         }
     }
 }

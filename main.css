@@ -314,6 +314,12 @@ template {
   text-transform: uppercase;
   margin-left: 2rem;
 }
+@media (min-width: 768px) {
+  .header__paragraph {
+    font-size: 1.5rem;
+    letter-spacing: -1.5px;
+  }
+}
 
 .main {
   font-family: "Space Mono", monospace;
@@ -324,13 +330,23 @@ template {
   line-height: 4rem;
   color: #333;
 }
+@media (min-width: 768px) {
+  .main__header {
+    margin-bottom: 1rem;
+  }
+}
 .main__paragraph {
   width: 90%;
   line-height: 1.5rem;
   font-weight: lighter;
   margin-left: 1.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   color: #4F4F4F;
+}
+@media (min-width: 768px) {
+  .main__paragraph {
+    width: 60%;
+  }
 }
 .main__button--link {
   text-decoration: none;
@@ -338,6 +354,11 @@ template {
   text-transform: uppercase;
   font-size: 0.9rem;
   font-weight: 600;
+}
+@media (min-width: 768px) {
+  .main__button--link {
+    font-size: 0.6rem;
+  }
 }
 
 .main__image {
@@ -348,9 +369,19 @@ template {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 768px) {
+  .main__flex-container {
+    display: flex;
+  }
+}
 .main__button {
   background-color: #333;
   display: inline-block;
   padding: 1.3rem 2.2rem;
   margin-left: 1.5rem;
+}
+@media (min-width: 768px) {
+  .main__button {
+    padding: 0.7rem 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */
