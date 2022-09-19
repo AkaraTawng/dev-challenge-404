@@ -6,3 +6,35 @@
 /* Font Variables */
 $inconsolata: 'Inconsolata', monospace;
 $spacemono: 'Space Mono', monospace;
+
+/* Breakpoints */
+$breakpoints: (
+    "tablet": 768px,
+    "laptop": 1280px, 
+    "desktop-md": 1530,
+    "desktop-lg": 1920px
+);
+
+@mixin tablet {
+    @media (min-width: map-get($breakpoints, tablet)) {
+        @content
+    }
+};
+
+@mixin laptop {
+    @media (min-width: map-get($breakpoints, laptop)) {
+        @content
+    }
+};
+
+@mixin desktop-md {
+    @media (min-width: map-get($breakpoints, desktop-md)) {
+        @content
+    }
+};
+
+@mixin desktop-lg {
+    @media (min-width: map-get($breakpoints, desktop-lg)) {
+        @content
+    }
+};
