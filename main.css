@@ -315,5 +315,32 @@ template {
 }
 
 .main {
-  font-family: "Inconsolata", monospace;
+  font-family: "Space Mono", monospace;
+}
+.main__header {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-left: 1.5rem;
+  line-height: 4rem;
+  color: #333;
+}
+.main__paragraph {
+  width: 90%;
+  line-height: 1.5rem;
+  font-weight: lighter;
+  margin-left: 1.5rem;
+  margin-bottom: 4rem;
+  color: #4F4F4F;
+}
+.main__button--link {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.main__image {
+  width: 18rem;
+  height: 15rem;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
 }/*# sourceMappingURL=main.css.map */

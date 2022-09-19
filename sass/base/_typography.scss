@@ -8,16 +8,29 @@
 }
 
 .main {
-    font-family: $inconsolata;
+    font-family: $spacemono;
     &__header {
-        // font-family: $spacemono;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        margin-left: 1.5rem;
+        line-height: 4rem;
+        color: #333;
     }
 
     &__paragraph {
-        // font-family: $spacemono;
+        width: 90%;
+        line-height: 1.5rem;
+        font-weight: lighter;
+        margin-left: 1.5rem;
+        margin-bottom: 4rem;
+        color: #4F4F4F;
     }
 
     &__button {
-        // font-family: $spacemono;
+        &--link {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
     }
 }
