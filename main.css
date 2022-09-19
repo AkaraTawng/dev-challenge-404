@@ -5,6 +5,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono&display=swap);
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -299,4 +301,10 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+/* Google Fonts */
+/* Font Variables */
+.header__paragraph {
+  font-family: "Inconsolata", monospace;
 }/*# sourceMappingURL=main.css.map */
