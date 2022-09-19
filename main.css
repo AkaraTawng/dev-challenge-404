@@ -346,6 +346,11 @@ template {
     font-size: 2.8rem;
   }
 }
+@media (min-width: 1920px) {
+  .main__header {
+    width: 55%;
+  }
+}
 .main__paragraph {
   width: 90%;
   line-height: 1.5rem;
@@ -371,6 +376,11 @@ template {
 @media (min-width: 1530px) {
   .main__paragraph {
     line-height: 2.3rem;
+  }
+}
+@media (min-width: 1920px) {
+  .main__paragraph {
+    width: 44%;
   }
 }
 .main__button--link {

@@ -28,6 +28,9 @@
             width: 65%;
             font-size: 2.8rem;
         }
+        @include desktop-lg {
+            width: 55%;
+        }
     }
 
     &__paragraph {
@@ -49,6 +52,9 @@
         }
         @include desktop-md {
             line-height: 2.3rem;
+        }
+        @include desktop-lg {
+            width: 44%;
         }
     }
 
